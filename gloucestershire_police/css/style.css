@@ -1,0 +1,131 @@
+/* Global styling for the form */
+form {
+    max-width: 600px; /* Set a maximum width for the form */
+    margin: 0 auto;   /* Center the form on the page */
+    padding: 20px;    /* Add padding inside the form */
+    border: 1px solid #ccc; /* Border around the form */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Styling for form labels */
+form label {
+    display: inline-block; /* Inline block to control width and layout */
+    width: 150px; /* Consistent width for labels */
+    font-weight: bold; /* Bold text for labels */
+}
+
+/* Styling for form inputs */
+form input,
+form select {
+    width: 100%; /* Inputs fill the width of the form */
+    padding: 8px; /* Padding inside inputs */
+    margin-top: 5px; /* Space between label and input */
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ccc; /* Border around inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+}
+
+/* Styling for submit button */
+form button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Larger font for button */
+    cursor: pointer; /* Pointer cursor for hover */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+/* Hover effect for submit button */
+form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Styling for breaks to reduce extra space */
+form br {
+    line-height: 0; /* Remove default line-height from breaks */
+}
+
+/* Aligning select boxes to the left */
+form select {
+    text-align: left; /* Ensure text aligns left in select box */
+}
+
+/* Styling for headings */
+h2 {
+    font-size: 24px; /* Larger font size */
+    font-weight: bold; /* Bold font */
+    color: #005aa7; /* Blue color to match the submit button */
+    text-align: center; /* Center the heading */
+}
+
+h3 {
+    font-size: 18px; /* Slightly smaller font size */
+    color: #333; /* Dark grey color for contrast */
+    text-align: center; /* Center the sub-heading */
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+thead th {
+    padding: 12px 15px;
+}
+
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+tbody td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+tbody td img {
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+}
+
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+option {
+    padding: 5px;
+}
